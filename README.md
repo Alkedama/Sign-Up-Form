@@ -13,14 +13,7 @@ This is a simple sign-up form project. It provides a user-friendly form for capt
 ## Technologies Used
 
 - HTML
-- CSS (SCSS)
+- CSS
+- Vite
 - JavaScript
 - TailwindCSS
-
-## Getting Started
-
-To get started with the sign-up form project, follow these steps:
-
-1. Clone the repository:
-   ```shell
-   git clone git@github.com:Alkedama/Sign-Up-Form.git
