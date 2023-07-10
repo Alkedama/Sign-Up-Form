@@ -8,16 +8,17 @@ function App() {
 
   return (
     <>
-      <div class="container flex" id="ParentContainer">
+      <div class="flex ContentContainer">
 
         <div class="container">
 
           <div class="relative">
             <img src="/images/halie-west-25xggax4bSA-unsplash.jpg" alt="Background Image" />
 
-            <div class="absolute flex inset-0">
-              <img src="/images/odin-lined.png" alt="Logo" />
-              ODIN
+            <div class="flex absolute inset-0 items-center justify-center
+             bg-slate-900 bg-opacity-50 LogoContainer">
+              <img class="Logo" src="/images/logo_transparent.png" alt="Logo" />
+              <span>Logo</span>
             </div>
           </div>
 
@@ -49,8 +50,8 @@ function App() {
           <button type="submit">Create Account</button>
           <span>Already have an account? <a href="#">Log in</a></span>
         </form>
-      </div>
 
+      </div>
     </>
   )
 }
