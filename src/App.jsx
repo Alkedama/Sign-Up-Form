@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import odinLogo from './assets/images/odin-lined.png'
+import backgroundImage from './assets/images/halie-west-25xggax4bSA-unsplash.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,12 +15,12 @@ function App() {
         <div className='relative shrink-0 w-96'>
 
           <div className='flex h-screen'>
-            <img src='/images/halie-west-25xggax4bSA-unsplash.jpg' alt='Background Image' />
+            <img src={backgroundImage} alt='Background Image' />
           </div>
 
           <div className='LogoContainer flex absolute inset-0 items-center justify-center
              bg-slate-900 bg-opacity-50'>
-            <img className='Logo' src='/images/odin-lined.png' alt='Logo' />
+            <img className='Logo' src={odinLogo} alt='Logo' />
             <span className='text-5xl'>ODIN</span>
           </div>
 
