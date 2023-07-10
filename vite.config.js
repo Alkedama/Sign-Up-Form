@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Sign-Up-Form/'
+  base: 'https://alkedama.github.io/Sign-Up-Form/'
 })
