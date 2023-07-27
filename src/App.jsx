@@ -12,10 +12,10 @@ function App() {
     <>
       <div className='flex min-h-screen w-screen bg-gradient-to-b hover:bg-gradient-to-t from-lime-800 to-slate-800'>
 
-        <div className='relative shrink-0 w-96'>
+        <div className='flex relative shrink-0 w-96'>
 
-          <div className='flex h-screen'>
-            <img src={backgroundImage} alt='Background Image' />
+          <div className=''>
+            <img src={backgroundImage} className='h-full' alt='Background Image' />
           </div>
 
           <div className='LogoContainer flex absolute inset-0 items-center justify-center
@@ -29,7 +29,7 @@ function App() {
           </div>
         </div>
 
-        <div className='flex flex-col mt-40'>
+        <div className='flex flex-col mt-8'>
 
           <div className='mx-10 w-1/2'>
             <p className='font-mono'>This is not a real online service! You know you need something like this in your life to help you
@@ -41,7 +41,7 @@ function App() {
 
           <form action='' method='post'>
 
-            <div className='flex w-screen container px-10 py-5 border-solid shadow-lg'>
+            <div className='flex container px-10 py-5 border-solid shadow-lg'>
               <div className="flex-col">
                 <div className="my-2">
                   <p>Let's do this!</p>
